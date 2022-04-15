@@ -671,12 +671,25 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     position: relative;
-    margin-top: 5rem;
+    margin-top: 6rem;
   }
 
   .about__buttons {
     position: absolute;
     bottom: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 471px) {
+  .about__info {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5rem;
+  }
+
+  .about__buttons {
+    width: 130px;
   }
 }
 
