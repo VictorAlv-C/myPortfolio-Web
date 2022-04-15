@@ -471,10 +471,6 @@ img {
   align-items: center;
 }
 
-.p-pokedex {
-  width: 380px;
-}
-
 .ul-pokedex {
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
@@ -672,6 +668,10 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .portfolio__container {
+    padding-bottom: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -736,6 +736,10 @@ img {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .p-pokedex {
+    width: 350px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -751,6 +755,10 @@ img {
   .portfolio__content {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+  }
+
+  .portfolio__container {
+    padding-bottom: 2rem;
   }
 
   .portfolio__img {
