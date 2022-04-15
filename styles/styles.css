@@ -459,7 +459,7 @@ img {
 /*==========  Portfolio ========================== */
 
 .tech {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .tech li {
@@ -471,9 +471,12 @@ img {
   align-items: center;
 }
 
-.ul-pokedex {
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+.portfolio__button {
+  height: 40px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio__container {
@@ -501,6 +504,10 @@ img {
 
 .portfolio__button:hover {
   transform: translateX(0.2rem);
+}
+
+.swiper-pagination {
+  display: none;
 }
 
 .swiper-button-prev::after,
@@ -738,7 +745,7 @@ img {
   }
 
   .p-pokedex {
-    width: 350px;
+    min-width: 350px;
   }
 }
 
@@ -763,6 +770,10 @@ img {
 
   .portfolio__img {
     width: 320px;
+  }
+
+  .swiper-pagination {
+    display: block;
   }
 
   body {
