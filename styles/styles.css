@@ -671,11 +671,12 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     position: relative;
+    margin-top: 3rem;
   }
 
   .about__buttons {
     position: absolute;
-    bottom: 5rem;
+    bottom: 4.5rem;
   }
 }
 
