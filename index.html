@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css">
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
@@ -17,7 +18,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">
+                        <a href="#home" class="nav__link active-link">
                             <i class="uil uil-house-user nav__icon"></i> Home
                         </a>
                     </li>
@@ -38,7 +39,7 @@
                     </li>
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
-                            <i class="uil uil-envelope-upload-alt nav__icon"></i>Contactme
+                            <i class="uil uil-envelope-upload-alt nav__icon"></i>Contact
                         </a>
                     </li>
                 </ul>
@@ -61,39 +62,36 @@
                
                 <div class="home__content grid">
                     <div class="home__social">
-                        <a href="#" class="home__social-icon">
+                        <a href="https://www.facebook.com/victor.alvaradocuvillas/" class="home__social-icon target="_blank"">
                             <i class="uil uil-facebook-f"></i>
                         </a>
-                        <a href="#" class="home__social-icon">
+                        <a href="https://www.linkedin.com/in/victor-alfonso-alvarado-cuvillas-a68972187/" class="home__social-icon" target="_blank">
                             <i class="uil uil-linkedin"></i>
                         </a>
                     </div>
 
+                    
                     <div class="home__container-img">
                         <img src="./img/foto-perfil2.png" alt="" class="home__img">
                     </div>
+
                     <div class="home__data">
                         <h1 class="home__title">Hola, Soy Victor Alvarado.</h1>
-                        <h3 class="home__subtitle">Frontend developer</h3>
+                        <h3 class="home__subtitle">Full Stack Web Developer</h3>
                         <p class="home__descripcion">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur eaque natus enim nisi.
+                            Con apego mayor al desarrollo en Backend, poseo conocimientos tecnicos en JavaScript, Html, CSS, React.js, Node.js, Postgresql, etc.
                         </p>
                         <a href="#contact" class="button button--flex">
                              Contactame <i class="uil uil-message button__icon"></i>
                         </a>
                     </div>
+
                 </div>
 
-                <div class="home__scroll">
-                    <a href="#about" class="home__scroll-button button--flex">
-                        <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
-                        <span class="home__scroll-name">Bajar<span>
-                            <i class="uil uil-angle-double-down home__scroll-arrow"></i>
-                    </a>
-                </div>
+    
             </div>
         </section>
- <!--======================== ABOUT ============================ -->
+ <!--======================== ABOUT ============================================= -->
         <section class="about section" id="about">
                 
                 <h2 class="section__title">About Me</h2>
@@ -106,21 +104,23 @@
         
                     <div class="about__data">
                         <p class="about__descripcion">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, praesentium vero deserunt quos ea, vitae veniam nulla.
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia labore explicabo ducimus nisi, mollitia ea libero.
+                            Egresado de la Ingenieria en Sistemas Computacionales
+                            del Instituto Tecnologico Superior de Cosamaloapan, en el estado de Veracruz.
+                            Actualmente radico en Monterrey, N.L y curso el bootcamp de Full Stack Developer en "Academia de Ciencias de la Computación e Informática -
+                            Academlo"
                         </p>
                     </div>
                     <div class="about__info">
                         <p>
-                            <span class="about__info-title">+02</span>
+                            <span class="about__info-title">+06</span>
                             <span class="about__info-name">Meses de Experiencia</span>
                         </p>
                         <p>
-                            <span class="about__info-title">+04</span>
-                            <span class="about__info-name">Projectos Completados</span>
+                            <span class="about__info-title">+05</span>
+                            <span class="about__info-name">Proyectos Completados</span>
                         </p>
                         <p>
-                            <span class="about__info-title">+07</span>
+                            <span class="about__info-title">+06</span>
                             <span class="about__info-name">Meses desarrollandome en Academlo</span>
                         </p>
 
@@ -131,12 +131,353 @@
                 </div>
             </div>
         </section>
+    
+    <!--======================== SKILLS ============================================= -->
+    <section class="skill section" id="skills">
+        <h2 class="section__title"> Skills</h2>
+        <span class="section__subtitle">Mi nivel tecnico</span>
 
+        <div class="skills__container container grid">
+            <div>
+                <!--Skill 1-->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-brackets-curly skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__title">Frontend Developer</h1>
+                            <span class="skills__subtitle">Mas de 6 meses</span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">HTML y CSS</h3>
+                                <span class="skills__number">60%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__html"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">JavaScript</h3>
+                                <span class="skills__number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__js"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">React.JS</h3>
+                                <span class="skills__number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__react"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+                <!--Skill s-->
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="uil uil-server skills__icon"></i>
+                        
+                        <div>
+                            <h1 class="skills__title">Backend Developer</h1>
+                            <span class="skills__subtitle">Mas de 6 meses</span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">NodeJS</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__node"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Express</h3>
+                                <span class="skills__number">75%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__express"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Sequelize</h3>
+                                <span class="skills__number">75%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__sequelize"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--Skill s-->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-plus skills__icon"></i>
+                        
+                        <div>
+                            <h1 class="skills__title">Otros</h1>
+                            <span class="skills__subtitle">Mas de 6 meses</span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid others">
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Git</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Github</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">BcryptJs</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Json Web Token</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Express-Validator</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Multer</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Postgresql</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Hooks</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">React-Redux</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Redux-Thunks</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">React-Router</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Axios</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+        </div>
+    </section>
+
+    <!--======================== PORTFOLIO ========================================== -->
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Proyectos mas recientes</span>
+
+        <div class="portfolio__container container swiper mySwiper">
+            <div class="swiper-wrapper">
+                        <!--======== PORTFOLIO 2 ============== -->
+                        <div class="portfolio__content grid swiper-slide">
+                                <img src="img/portfolio 2.png" alt="" class="
+                                portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Agenda de Contactos</h3>
+                                <p class="portfolio__description"> App Web creada con <strong>React</strong> para registrar, consultar, 
+                                    modificar y eliminar contactos.<br>
+                                    Se consume una API atraves de Axios.
+                                    <p>
+                                        <b>Tecnologias utilizadas:</b>
+                                        <ul class="tech grid">
+                                            <li>Html</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>React</li>
+                                            <li>React-hook-form</li>
+                                            <li>Axios</li>
+                                        </ul>
+                                    </p>
+                                </p>
+                                <a href="" class="button button--flex portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-circle-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--======== PORTFOLIO 3 ============== -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="img/portfolio 1.png" alt="" class="
+                            portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Wiki Rick and Morty</h3>
+                            <p class="portfolio__description"> Pagina creada con <strong>React</strong>, donde se consume la API 
+                               de Rick and Morty atraves de Axios, y se muestra la informacion de cada uno de sus personajes.
+                                <p>
+                                    <b>Tecnologias utilizadas:</b>
+                                    <ul class="tech grid">
+                                        <li>Html</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>React</li>
+                                        <li>Axios</li>
+                                    </ul>
+                                </p>
+                            </p>
+                            <a href="" class="button button--flex portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-circle-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+            <div class="swiper-button-next">
+                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+    <!--======================== CONTACT ME ========================================== -->
+    <section class="contact section" id="contact">
+        <h2 class="section__title">Contactar</h2>
+        <span class="section__subtitle">Ponerse en contacto:</span>
+
+        <div class="contact__container container grid">
+            <div>
+                <div class="contact__information">
+                    <i class="uil uil-mobile-android contact__icon"></i>
+                    <div>
+                        <h3 class="contact__title">Phone</h3>
+                        <span class="contact__subtitle">81-3138-2695</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="contact__information">
+                    <i class="uil uil-envelope-alt contact__icon"></i>
+                    <div>
+                        <h3 class="contact__title">Email</h3>
+                        <span class="contact__subtitle">isc.cuvillas@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="contact__information">
+                    <i class="uil uil-map-marker contact__icon"></i>
+                    <div>
+                        <h3 class="contact__title">Location</h3>
+                        <span class="contact__subtitle">Monterrey, N.L - Mexico</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     </main>
     <!--============ FOOTER ============================ -->
-    
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Victor Alvarado</h1>
+                    <span class="footer__subtitle">Full Stack Developer</span>
+                </div>
 
+                <ul class="footer__links">
+                    <li>
+                        <a href="#about" class="footer__link">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/victor.alvaradocuvillas/"  class="footer__social" target="_blank">
+                        <i class="uil uil-facebook"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/victor-alfonso-alvarado-cuvillas-a68972187/" class="footer__social" target="_blank">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Derechos Reservados</p>
+        </div>
+    </footer>
+
+      <!--============ Scroll top ============================ -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
