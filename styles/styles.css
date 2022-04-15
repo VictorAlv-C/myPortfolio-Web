@@ -471,6 +471,15 @@ img {
   align-items: center;
 }
 
+.p-pokedex {
+  width: 380px;
+}
+
+.ul-pokedex {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
 .portfolio__container {
   overflow: initial;
 }
@@ -526,7 +535,7 @@ img {
   outline: none;
 }
 
-/*==========  Portfolio ========================== */
+/*==========  Contact ========================== */
 .contact__container {
   row-gap: 3rem;
 }
@@ -742,10 +751,6 @@ img {
   .portfolio__content {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-  }
-
-  .portfolio__container {
-    padding-bottom: 3rem;
   }
 
   .portfolio__img {
