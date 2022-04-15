@@ -671,7 +671,7 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     position: relative;
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
 
   .about__buttons {
