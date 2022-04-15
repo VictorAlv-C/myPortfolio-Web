@@ -494,7 +494,7 @@ img {
 }
 
 .portfolio__title {
-  font-size: var(--letra-normal);
+  font-size: var(--tletra-titulo-h2);
   margin-bottom: 0.5rem;
 }
 
