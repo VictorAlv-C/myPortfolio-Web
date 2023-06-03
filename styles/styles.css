@@ -438,6 +438,11 @@ img {
   width: 75%;
 }
 
+.skills__angular, 
+.skills__ts{
+  width: 50%;
+}
+
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
